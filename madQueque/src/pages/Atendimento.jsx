@@ -1,3 +1,5 @@
+import "./Atendimento.css";
+
 function Atendimento(){
   let dados = localStorage.getItem("dados-fila");
   if (dados == null || dados == undefined) {
@@ -28,7 +30,7 @@ function Atendimento(){
   }
 
   return (
-    <div>
+    <div className="atedimento-content">
       <section>
         <h2>{proximoPaciente ? proximoPaciente.nome : "Nenhum paciente"}</h2>
         <button onClick={chamarProximo}>Chamar Próximo</button>

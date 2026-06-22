@@ -1,0 +1,14 @@
+.atedimento-content{
+  display: flex;
+  justify-content: space-evenly;
+  &>section{
+    border: solid 1px black;
+    margin-top: 26px;
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+  ul{
+    list-style: none;
+    padding: 0px;
+  }
+}
