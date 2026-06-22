@@ -1,0 +1,18 @@
+#form-paciente{
+    margin-top: 20px;
+    border: solid 1px rgb(91, 101, 225);
+    display: table;
+    width: 260px;
+    padding: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    input, select, button, label{
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+    button{
+        margin-top: 10px;
+        text-align: center;
+    }
+}
